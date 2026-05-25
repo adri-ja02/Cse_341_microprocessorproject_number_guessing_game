@@ -3,6 +3,7 @@
 AS A PART OF OUR MICROPROCESSOR COURSE WE HAVE CREATED THIS SMALL AND FUN PROJECT WHICH GAVE US AN HANDS ON EXPERIENCE ON HOW ASSEMBLY LANGUAGE WORKS AND FOR IDE WE USED EMULATOR HERE(emu8086).WE WERE 3 MEMBERS IN OUR GROUP AND WORKED FOR 2 FEATURES EACH. 
 THE GAME FEATURES ARE GIVEN BELOW;
 NUMBER GUESSING GAME
+
 Feature 1: Secret Number Initialization The program initializes a fixed secret number which the user must guess. Since 8086 Assembly does not support built-in random functions easily, a predefined value is stored in a register and used as the target number. 
 
 Feature 2: User Input System The system accepts user input using DOS interrupt INT 21H. The entered ASCII value is converted into a numeric value for comparison with the secret number. 
